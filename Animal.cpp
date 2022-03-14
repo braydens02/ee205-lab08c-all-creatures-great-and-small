@@ -2,15 +2,14 @@
 ///         University of Hawaii, College of Engineering
 /// @brief  Project - EE 205 - Spr 2022
 ///
-/// @file main.cpp
+/// @file Animal.cpp
 /// @version 1.0
 ///
 /// @author Brayden Suzuki <braydens@hawaii.edu>
 /// @date   13_Mar_2022
 ///////////////////////////////////////////////////////////////////////////////
-#include <iostream>
+#include "Animal.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+using namespace std;
+
+const string Animal::kingdom = "Animalia" ;
