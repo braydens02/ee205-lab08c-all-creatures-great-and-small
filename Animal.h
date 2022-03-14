@@ -50,6 +50,12 @@ protected:
     string species; //Required
     enum Gender gender = UNKNOWN_GENDER;
     float weight = UNKNOWN_WEIGHT ;
+
+    bool validateWeight( const float weight );
+    bool validateSpecies( const std::string newSpecies);
+
+private:
+    void setSpecies( const std::string newSpecies );
 };
 
 
